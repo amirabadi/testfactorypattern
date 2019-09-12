@@ -13,7 +13,7 @@ public class TestFactoryPattern implements Serializable {
     ShapeService shapeService;
     private String res = "";
 
-    public void cerateCircle() {
+    public void cearteAllShape() {
         res = shapeService.createAllShape();
     }
 
